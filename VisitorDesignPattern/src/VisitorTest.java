@@ -17,7 +17,7 @@ public class VisitorTest {
 		objectsList.add( new Liquor(11.99).accept(taxCalc));
 		objectsList.add( new Tobacco(19.99).accept(taxCalc));
 				
-		//Display the objects
+		//Display the objects using Lambda Expression 
 		objectsList.forEach(object -> System.out.println(object));
 		
 	}
