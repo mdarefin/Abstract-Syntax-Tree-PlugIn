@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.jdt.core.IMethod"
+            id="ASTTrav.contribution1">
+         <action
+               label="Traverse AST"
+               class="asttrav.popup.actions.TraversAST"
+               menubarPath="additions"
+               enablesFor="1"
+               id="ASTTrav.newAction">
+         </action>
+      </objectContribution>
+   </extension>
+
+</plugin>
