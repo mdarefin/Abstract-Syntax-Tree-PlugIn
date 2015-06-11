@@ -35,6 +35,7 @@ public class InfoGatherer {
 		//are Java-capable. 
 		//---
 		List<IJavaProject> javaprojects = new ArrayList<>();
+
 		for(int i = 0; i<projects.length; i++){
 			IProject project = projects[i];
 			//
@@ -149,6 +150,7 @@ public class InfoGatherer {
 		//The AST.JLS2 actual specifies that the parser will should work with
 		//JLS2 (J2SE 1.4)
 		//---
+
 		ASTParser parser=ASTParser.newParser(AST.JLS8);
 		
 		//---

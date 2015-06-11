@@ -10,7 +10,11 @@
          <action
                label="Traverse AST"
                class="asttrav.popup.actions.TraversAST"
+<<<<<<< HEAD
                menubarPath="additions"
+=======
+               menubarPath="ASTTrav.menu1/group1"
+>>>>>>> 37b601ad45c9b90f412791b477c1ca3efb4e049f
                enablesFor="1"
                id="ASTTrav.newAction">
          </action>
