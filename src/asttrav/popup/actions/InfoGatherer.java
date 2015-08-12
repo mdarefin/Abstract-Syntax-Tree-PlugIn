@@ -86,7 +86,7 @@ public class InfoGatherer {
 					if (pfrag[k].getKind() != IPackageFragmentRoot.K_SOURCE) continue;
 					
 					//---
-					//Now that we've determined that we've determined that the fragment contains
+					//Now we've determined that the fragment contains
 					//source we need to get the compilation units contained in it.
 					//An ICompilationUnit represents an entire Java compilation unit (.java source file). 
 					//---
@@ -117,7 +117,7 @@ public class InfoGatherer {
 							for(int mc = 0; mc<im.length; mc++){
 								
 								if(im[mc].isBinary())continue;
-								//System.out.println(im[mc].getElementName());
+								System.out.println(im[mc].getElementName());
 								total++;
 							}//end for(int mc = 0; mc<im.length; mc++)
 						}//end for(int tc = 0; tc<allTypes.length; tc++)
@@ -181,7 +181,7 @@ public class InfoGatherer {
 		//---
 		parser.setSource(icu);
 		//---
-		//Creates an abstract syntax tree. We pass null for the progressmonitor
+		//Creates an abstract syntax tree. We pass null for the progress monitor
 		//---
 		ASTNode node = parser.createAST(null);
 		//---
