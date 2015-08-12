@@ -53,12 +53,7 @@ cursor are considered in the "ahead" portion and will be visited.
 package asttrav.popup.actions;
 
 /**
-<<<<<<< HEAD
- * @author 
-=======
  * @author sawin
->>>>>>> 37b601ad45c9b90f412791b477c1ca3efb4e049f
- *
  * TODO To change the template for this generated type comment go to
  * Window - Preferences - Java - Code Style - Code Templates
  */
@@ -134,10 +129,7 @@ import org.eclipse.jdt.core.IMethod;
  		return visitNode(node);
  	}
  	public boolean visit(ClassInstanceCreation node) {
-<<<<<<< HEAD
- 		numCalls++;
-=======
->>>>>>> 37b601ad45c9b90f412791b477c1ca3efb4e049f
+
  		return visitNode(node);
  	}
  	public boolean visit(CompilationUnit node) {
@@ -154,11 +146,7 @@ import org.eclipse.jdt.core.IMethod;
  		this.numCalls++;
  		return visitNode(node);
  	}
-<<<<<<< HEAD
- 	
- 	
-=======
->>>>>>> 37b601ad45c9b90f412791b477c1ca3efb4e049f
+
  	public boolean visit(ExpressionStatement node) {
  		return visitNode(node);
  	}
